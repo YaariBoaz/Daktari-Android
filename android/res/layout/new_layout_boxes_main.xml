@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/minimalistfoam"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:orientation="horizontal" >
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="99dp"
+            android:layout_weight="1"
+            android:onClick="about_click"
+            android:background="@drawable/about" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="99dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:onClick="call_click"
+            android:background="@drawable/call" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="99dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:onClick="xontact_click"
+            android:background="@drawable/contactus" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout3"
+        android:orientation="horizontal" >
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="99dp"
+            android:layout_weight="1"
+            android:onClick="hot_click"
+            android:background="@drawable/hot" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="99dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:onClick="share_click"
+            android:background="@drawable/share" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="99dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:onClick="hungry_click"
+            android:background="@drawable/hungry" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal" >
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="99dp"
+            android:layout_weight="1"
+            android:onClick="pics_click"
+            android:background="@drawable/pics" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="99dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:onClick="map_click"
+            android:background="@drawable/map" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="99dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:onClick="facebook_click"
+            android:background="@drawable/facebook" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</RelativeLayout>

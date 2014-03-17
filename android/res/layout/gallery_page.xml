@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_afula"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="113dp"
+            android:layout_height="174dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/dal1" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="113dp"
+            android:layout_height="174dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/gram1" />
+
+        <ImageView
+            android:id="@+id/ImageView08"
+            android:layout_width="113dp"
+            android:layout_height="174dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/gor1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="113dp"
+            android:layout_height="174dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/mal1" />
+
+        <ImageView
+            android:id="@+id/ImageView04"
+            android:layout_width="113dp"
+            android:layout_height="174dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/pom1" />
+
+        <ImageView
+            android:id="@+id/ImageView03"
+            android:layout_width="113dp"
+            android:layout_height="174dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/ImageView01"
+            android:src="@drawable/pit1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView05"
+            android:layout_width="113dp"
+            android:layout_height="174dp"
+            android:src="@drawable/tz1" />
+
+        <ImageView
+            android:id="@+id/ImageView07"
+            android:layout_width="113dp"
+            android:layout_height="174dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/yor1" />
+
+        <ImageView
+            android:id="@+id/ImageView06"
+            android:layout_width="113dp"
+            android:layout_height="174dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/white1" />
+
+    </RelativeLayout>
+
+</LinearLayout>
